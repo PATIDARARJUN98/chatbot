@@ -1,3 +1,4 @@
+import pandas as pd
 import nltk
 import words as words
 nltk.download('punkt')
@@ -34,7 +35,7 @@ words = [stemmer.stem(w.lower()) for w in words if w != "?"] #convert all cases 
 words = sorted(list(set(words))) #remove the duplicate words
 
 
-#labels = sorted(labels) #remove the duplicate classes
+# labels = sorted(labels) #remove the duplicate classes
 training = []
 output = []
 
@@ -109,8 +110,18 @@ def chat():
         for tg in data["intents"]:
             if tg['tag'] == tag:
                 responses = tg['response']
+                dfm = pd.read_excel("conv_logs.xlsx", "Sheet1")
+                # dfm = pd.read_csv("conv_logs.csv")
+                df1 = pd.Series([inp, tag], index=['user', 'bot'])
+                dfm = dfm.append(df1, ignore_index=True)
+                # print(dfm)
+                # dfm.to_csv('conv_logs.csv',header=True)
+                dfm.to_excel("conv_logs.xlsx", sheet_name="Sheet1",index = False)
 
         print(random.choice(responses))
+
+
+
 
 chat()
 
