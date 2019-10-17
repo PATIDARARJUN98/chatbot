@@ -1,0 +1,5 @@
+Invoice,Org Date,Compl Date,Status Invoice,Remark_payment,Amount,Status Payment
+ABC-23E,04-12-19,20-04-19,Error,Incomplete detail,3000,pending
+DEF-12E,05-01-19,05-10-19,done,done,5000,done
+GHI-11A,04-12-19,05-10-19,Succesful,done,8500,done
+JKL-56H,13-07-19,25-07019,pending,Incomplete detail,5500,pending

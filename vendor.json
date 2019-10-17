@@ -1,0 +1,99 @@
+{"intents": [
+   {
+      "tag": "payment change",
+      "patterns": ["change in payment", "I would like to make changes in the payment amount", "would like to update payment amount", "report changes in amount"],
+      "response": ["11"]
+      
+   },
+    {
+      "tag": "payment not received",
+      "patterns":["haven't received payment" , "payment not received yet", "payment not processed", "when will I receive my payment"],
+      "response": ["22"]
+      
+   },
+    {
+      "tag": "payment date",
+      "patterns": ["what is the date of the payment", "payment date", "receiving date of payment"],
+      "response": ["33"]
+     
+   },
+    {
+      "tag": "payment track",
+      "patterns": ["what is the progress of the payment", "track payment"],
+      "response": ["55"]
+     
+   },
+    {
+      "tag": "invoice wrong",
+      "patterns": ["wrong invoice, invoice generated is wrong", "incorrect invoice"],
+      "response": ["66"]
+     
+   },
+    {
+      "tag": "invoice status",
+      "patterns": ["what is the status of invoice", "status of invoive"],
+      "response": ["77"]
+      
+   },
+    {
+      "tag": "other error",
+      "patterns": ["other errors","error"],
+      "response": ["88"]
+     
+   },
+    {
+      "tag": "invoice changes",
+      "patterns": ["changes in invoice", "make changes in invoice"],
+      "response": ["99"]
+     
+   },
+  {
+      "tag": "change payment term",
+      "patterns": ["there will be delay in delivery, would like to change payment terms","what are the payment terms","change payment term","review payment term and change it"],
+      "response": ["123"]
+
+   },{
+      "tag":["item shown in outstanding","missing items"],
+      "patterns": ["missing an item","one item in invoice is missing","not recieved all items  "],
+      "response": ["456"]
+
+   },{
+      "tag": ["payment failure","unsuccessfull payment","payment not completed","payment not done","payment wrong "],
+      "patterns": ["unsuccessfull payment","payment not completed","payment not done","the payment made is wrong", "received wrong payment", "incorrect payment amount"],
+      "response": ["753"]
+
+   },{
+      "tag": ["payment recieved short","short/half payment"],
+      "patterns": ["my full payment is not recieved","payment recieved is short","only part payment is received","half payment"],
+      "response": ["159"]
+
+   },{
+      "tag": ["Debit note","pay summary","reciept of payment","payment confirm","tax payment"],
+      "patterns": ["can i get a reciept of the bill","i want a payment summary","payment confirmation","please send my payment confirmation","tax reciept","i want tax payment receipt"],
+      "response": ["654"]
+
+   },{
+      "tag": ["vendor data update/change","revise data","correct data"],
+      "patterns": ["would like to update my details","would like to change name","can i update my date of birth",""],
+      "response": ["987"]
+
+   },{
+      "tag": "Tax",
+      "patterns": ["how much tax is deducted","how much tax for my invoice","tax applied"],
+      "response": ["357"]
+
+   },
+   {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "response": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+   },
+    {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "response": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+   },
+    {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "response": ["Happy to help!", "Any time!", "My pleasure"]
+   }
+ ]
+}

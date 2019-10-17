@@ -1,0 +1,326 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up" ],
+      "responses": [ "Hello!", "Good to see you again!", "Hi there, how can I help?" ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day" ],
+      "responses": [ "Sad to see you go :(", "Talk to you later", "Goodbye!" ]
+    },
+    {
+      "tag": "age",
+      "patterns": [ "how old", "how old is tim", "what is your age", "how old are you", "age?" ],
+      "responses": [ "I am 18 years old!", "18 years young!" ]
+    },
+    {
+      "tag": "name",
+      "patterns": [ "what is your name", "what should I call you", "whats your name?" ],
+      "responses": [ "You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim." ]
+    },
+    {
+      "tag": "shop",
+      "patterns": [ "Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat" ],
+      "responses": [ "We sell chocolate chip cookies for $2!", "Cookies are on the menu!" ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [ "when are you guys open", "what are your hours", "hours of operation" ],
+      "responses": [ "We are open 7am-4pm Monday-Friday!" ]
+    },
+    {
+      "tag": "payment change",
+      "patterns": ["change in payment", "I would like to make changes in the payment amount", "would like to update payment amount", "report changes in amount"],
+      "responses": ["11"]
+
+   },
+    {
+      "tag": "payment not received",
+      "patterns":["haven't received payment" , "payment not received yet", "payment not processed", "when will I receive my payment"],
+      "responses": ["22"]
+
+   },
+    {
+      "tag": "payment date",
+      "patterns": ["what is the date of the payment", "payment date", "receiving date of payment"],
+      "responses": ["33"]
+
+   },
+    {
+      "tag": "payment wrong ",
+      "patterns": ["the payment made is wrong", "received wrong payment", "incorrect payment amount"],
+      "responses": ["44"]
+
+   },
+    {
+      "tag": "payment track",
+      "patterns": ["what is the progress of the payment", "track payment"],
+      "responses": ["55"]
+
+   },
+    {
+      "tag": "invoice wrong",
+      "patterns": ["wrong invoice, invoice generated is wrong", "incorrect invoice"],
+      "responses": ["66"]
+
+   },
+    {
+      "tag": "invoice status",
+      "patterns": ["what is the status of invoice", "status of invoive"],
+      "responses": ["77"]
+
+   },
+    {
+      "tag": "other error",
+      "patterns": ["other errors","error"],
+      "responses": ["88"]
+
+   },
+    {
+      "tag": "invoice changes",
+      "patterns": ["changes in invoice", "make changes in invoice"],
+      "responses": ["99"]
+
+   },
+    {"tag": "leave objective",
+         "patterns": ["What is the objective of the leave policy", "objective of leave policy", "leave policy"],
+         "responses": ["To encourage and support employees to take leave for vacation, rest and recreation along with supporting other significant milestones such as parenthood, higher education or any other personal requirement."]
+        },
+    {"tag": "leave purpose",
+         "patterns": ["What is the purpose of the leave policy", "purpose of leave policy"],
+         "responses": ["Time Off from Work is provided for the purpose of rest, relaxation and a planned break from the workplace or to attend to personal affairs and ensure a healthy work life balance."]
+        },
+     {
+            "tag": "Leave pl",
+            "patterns": ["How many PLs are there?"],
+            "responses":[ "30 calendar days per year"]
+        },
+        {
+            "tag": "Leave cl",
+            "patterns": ["How many CLs are there in a year?"],
+            "responses":[ "8 calendar days per year"]
+        },
+        {
+            "tag": "Leave sl",
+            "patterns": ["How many SLs are there?"],
+            "responses": ["10 calendar days per year"]
+        },
+        {
+            "tag": "Leave pl acumulated",
+            "patterns": ["How many PLs can be accumulated?"],
+            "responses": ["PL can be accumulated upto 300 days for employees who joined on or before 31st March 2012 and upto 180 days for employees who joined on or after 1st April 2012  "]
+        },
+        {
+            "tag": "Leave pl",
+            "patterns": ["I joined in June 2019. How many PLs can I accumulate?"],
+            "responses": ["upto 180 days"]
+        },
+     {
+            "tag": "objective of the Policy Department Vehicles ",
+            "patterns":[ "What is the objective of the Policy on Department Vehicles?"],
+            "responses":[ "The objective of the policy is to provide guidelines for usage of department vehicles at plant and commercial locations."]
+        },
+        {
+            "tag": "purpose of the PolicyDepartment Vehicles ",
+            "patterns":[ "What is the purpose of the Policy on Department Vehicles?"],
+            "responses":[ "As a practice, company owned vehicles are made available to the departments across plants and commercial locations for official use. As an organization, we would like to strive towards a more efficient and optimal use of such vehicles to ensure lower costs of operations, safety of employees and to enable seamless employee experience. "]
+        },
+        {
+            "tag": "eligible Department Vehicles ",
+            "patterns": ["Who are eligible for Policy on Department Vehicles?"],
+            "responses": ["This policy applies to all employees from Level 6 to Level C, employees on old grades of Tata Motors Limited and TMLDC"]
+        },
+        {
+            "tag": "constitute Department Vehicles ",
+            "patterns": ["What all vehicles constitute department vehicles?"],
+            "responses":[ "Any TML Owned passenger vehicles (all passenger vehicle models, Utility Vehicles, Winger and Ventures) or monthly hired vehicles from vendor, which are used for employee mobility and not for goods transport constitute department vehicles."]
+        },
+        {
+            "tag": " purposes Department Vehicles ",
+            "patterns": ["For what purposes department vehicles can be used?"],
+            "responses": ["Department vehicles can be used for official purpose wherein TML employees are required to travel for vendor visits, dealer visits, business meetings etc. If department vehicles are unavailable, then the employees are expected to use public transport/ on-call cabs/ hired taxis and claim reimbursements as per domestic travel policy in such cases. Department vehicles cannot be used for employees’ personal needs and commute from home to office etc."]
+        },
+        {
+            "tag": "approvals necessary Department Vehicles ",
+            "patterns": ["Are any approvals necessary for using department vehicles?"],
+            "responses": ["No, since day to day usage and ownership lies with the department, the department head may decide guidelines for usage of such vehicles."]
+        },
+        {
+            "tag": "airport pickup on Department Vehicles ",
+            "patterns":[ "May I use departmental Vehicles for airport pickup and drop/ intercity travel?"],
+            "responses":[ "Employees need to refer to the domestic travel policy norms for such requests."]
+        },
+        {
+            "tag": "maintenance, insurance Department Vehicles ",
+            "patterns": ["Who will be responsible for the maintenance, insurance, refuelling of the vehicles?"],
+            "responses": ["Respective department would be responsible for the maintenance and refuelling of such vehicles. Admin would facilitate insurance, renewal of PUC etc."]
+        },
+        {
+            "tag": "plant Department Vehicles ",
+            "patterns": ["Can we use department vehicles within the plant?"],
+            "responses":[ "\r\nEmployees are encouraged to use the shuttle services within the plant. However, department vehicles can be used within the plant in case of emergency. \r\n"]
+        },
+        {
+            "tag": "monthly hire Department Vehicles ",
+            "patterns": ["We are taking the department vehicles on monthly hire model, so how this policy will be applicable?\r\n\r\n"],
+            "responses": ["All hire vehicles requests should be routed through location admin only. Admin will ensure the GPS installation and tracking of the hired vehicles."]
+        },
+        {
+            "tag": " monitored Department Vehicles ",
+            "patterns": ["How are the existing department vehicles monitored?"],
+            "responses":[ "The usage of all existing department vehicles will be monitored by Admin Team and accordingly the vehicles will be periodically reallocated within/across departments/locations to ensure optimal utilization of the available pool of vehicles across the company. Test Vehicles in ERC will be monitored by ERC Depts."]
+        },
+        {
+            "tag": "safety Department Vehicles ",
+            "patterns": ["Who are eligible for Policy on Department Vehicles?"],
+            "responses": ["All current and future department vehicles would be fitted with a vehicle tracking system. This would help/enable alerts for any harsh braking/ high speed cornering/ driving above certain speeds etc. so that the drivers and employees can be educated/ trained to improve and reduce such unsafe acts"]
+        },
+        {
+            "tag": "different types Department Vehicles ",
+            "patterns": ["What are the different types of department vehicles?"],
+            "responses":[ "a. Company owned vehicles – either chauffeur driven or self- driven.\r\nb. Monthly hired vehicles from vendors – chauffeur driven.\r\nNote - Any vehicle used exclusively for material movement is being excluded from this policy."]
+        },
+        {
+            "tag": "existing fleet Department Vehicles ",
+            "patterns": ["How are new department vehicles added to the existing fleet?"],
+            "responses": ["All requests will be routed through Local & Corporate Admin only. Business requirements, utilisation of current fleet and alternative support through shuttles/Ola/Uber etc. will be judiciously evaluated before any addition to existing fleet of vehicles is recommended by the Admin Team.  If business needs for additional department vehicles for a particular department are justified, same would need to be confirmed by Corp Admin and post that the request would need to be routed through Corporate Planning for company owned vehicles(in line with the capital budgeting cycle)."]
+        },
+        {
+            "tag": " new Department Vehicles ",
+            "patterns":[ "When can an employee begin to use a new department vehicle?"],
+            "responses": ["All such vehicles would need to be registered in Asset Master by location Admin before employee begins to use the department vehicle except test vehicles of any type in ERC."]
+        },
+        {
+            "tag": "vehicle models Department Vehicles ",
+            "patterns": ["How are vehicle models decided for new department vehicles?"],
+            "responses": ["Vehicle Model will be decided based on usage pattern, seating capacity, distance of travel, purpose of travel, It must be the diesel vehicle & nearest base model with Air bag+ ABS+EBD (except test vehicles in ERC) etc."]
+        },
+        {
+            "tag": "replaced Department Vehicles ",
+            "patterns": ["How can a deparment vehicle be replaced?"],
+            "responses":[ "Vehicles not road worthy or having abnormally high maintenance/operating expenses will be considered for disposal as per the Asset Disposal Policy. For vehicle replacement, vehicle model will be decided based on usage pattern, seating capacity, distance of travel, purpose of travel. It must be the diesel vehicle & nearest base model with Air bag+ ABS+EBD  (Except test vehicles in ERC)"]
+        },
+        {
+            "tag": "replacement Department Vehicles ",
+            "patterns": ["What are the parameters to be accessed for replacement of a department vehicle?"],
+            "responses":[ "a. Age of vehicle \r\nb. Total number of kilometres run by a vehicle \r\nc. Regular Maintenance cost of vehicle \r\nNote - In cases of replacement, the older vehicle needs to be handed over to Admin for disposal. "]
+        },
+        {
+            "tag": "individual Department Vehicles ",
+            "patterns": ["Can department vehicles be allocated to an individual?"],
+            "responses": ["Department vehicles will not be allocated to any individual."]
+        },
+        {
+            "tag": "used Department Vehicles ",
+            "patterns": ["How can department vehicles be used?"],
+            "responses":[ "Department vehicles can only be used for official work  . However, if the business trip needs the home pick up or drops during trip journey, such cases will not be considered as personal use. Also In case of ERC any such use of vehicle for authorised vehicle feedback purpose will be an exception.\r\nDepartment vehicle can be used to drop employees home, especially women employees if they are required to stay back late for office work\r\nDepartment vehicles cannot be used during weekends for personal use , driver should not be allowed to park vehicle at his premises/manager’s premises unless employee gets extremely late which is understandable. Vehicle to be parked at location office only except in case of ERC test vehicles where feedback is requested"]
+        },
+        {
+            "tag": "vehicles allocated Department Vehicles ",
+            "patterns": ["How are department vehicles allocated?How are dpartment vehicles served?"],
+            "responses":[ "Vehicles may be used on a first come first serve basis/ business need/urgency at location and shall not be restricted to few individuals only."]
+        },
+        {
+            "tag": "Intra-Plant usage Department Vehicles ",
+            "patterns": ["Can I use department vehicles for Intra-Plant usage?"],
+            "responses": ["For plant locations, Intra-plant usage of department vehicles is strictly discouraged. Employees are encouraged to take shuttles while travelling within the plant.  ERC employees spread across the plants can use the dept. vehicles on need basis"]
+        },
+        {
+            "tag": "addditional Department Vehicles ",
+            "patterns": ["Can a department request for addditional department vehicles?"],
+            "responses": ["Departments would need to manage their business needs within their available fleet. For any additional requirements employees are expected to use public transport/ on-call cabs/ Ola/Uber hired taxis and claim reimbursements as per domestic travel policy in such cases. Specifically-vehicles will be used for feedback and will be authorized by the respective L2"]
+        },
+        {
+            "tag": "refeuled Department Vehicles ",
+            "patterns": ["How can department vehicles be refeuled?"],
+            "responses":[ "In Commercial offices, all department vehicles will be allocated with Fuel Cards by Admin team which would be required to be swiped at partner petrol pumps. All current coupons will be phased out by Q2 FY18"]
+        },
+        {
+            "tag": "refiling Department Vehicles ",
+            "patterns": ["What other methods are there for refiling department vehicles?"],
+            "responses": ["No other method (e.g. impress claim / any local arrangement) for refiling the fuel is allowed, other than Fuel card. Except for the remote places and occasions where fuel card does not work. (Example - At few remote places / instances when swiping machines at petrol pump fails/is not working)."]
+        },
+        {
+            "tag": "Fuel Cards Department Vehicles ",
+            "patterns": ["Who defines the limits of Fuel Cards of department vehicles?"],
+            "responses": "The limit of fuel on such fuel cards (monthly/yearly) are defined by Admin/Business and are subject to periodic reviews.  Post the exhaustion of the defined limit, any additional fuel usage will require Plant Head/Regional Manager/respective Level 2 & above approval subject to budget availability."
+        },
+        {
+            "tag": "AMC Department Vehicles ",
+            "patterns": ["Is AMC mandatory for department vehicles?"],
+            "responses":[ "For all new vehicles in commercial offices, AMC is a mandatory requirement to ensure a scheduled maintenance regime as well as lower the costs."]
+        },
+        {
+            "tag": "maintained Department Vehicles ",
+            "patterns": ["Where should dapartment vehicles be maintained?"],
+            "responses":[ "In commercial locations, routine maintenance of department vehicles should be done at Tata Motors workshops (Concorde preferred wherever available). In Plants, maintenance should be done by in-house CMS/maintenance Teams wherever applicable. "]
+        },
+        {
+            "tag": "maintainance charges Department Vehicles ",
+            "patterns": ["How are the bills processed against maintainance charges of department vehicles?"],
+            "responses": ["• The bills processed against maintenance charges would be debited to respective cost centres against which the vehicle has been allocated. \r\n• For vehicles serviced at CMS/In-house workshops, CMS would be required to maintain service records. The cost of servicing at CMS would be debited to respective cost centres."]
+        },
+        {
+            "tag": "requirement of driver Department Vehicles ",
+            "patterns": ["How are requirement of new drivers of department vehicles addressed?How to replace drivers of department vehicles?"],
+            "responses": ["In case of any requirement of new drivers/replacement of existing drivers, the same shall be routed through Local admin to Corp Admin with recommendation of Plant Head/RM /respective L2 only."]
+        },
+        {
+            "tag": " Department Vehicles driver selected ",
+            "patterns": ["How will department vehicle drivers be selected?"],
+            "responses": ["New drivers for department vehicle will be sourced centrally on third party rolls through the Central ER team in Mumbai for all commercial locations & through contract cell/admin procurement team for plants as per set procedure."]
+        },
+        {
+            "tag": "cost of driver Department Vehicles ",
+            "patterns": ["Who incurs the cost of the driver?How will the cost of driver of department vehicles be debited to the department?"],
+            "responses": ["The cost of the driver would be debited to respective cost centers."]
+        },
+        {
+            "tag": "Insurance policy Department Vehicles ",
+            "patterns": ["What is the insurance policy for department vehicles?"],
+            "responses": ["a. All department vehicle for commercial locations will be covered under comprehensive insurance. \r\nb. All the department vehicles at plant will be covered under 3rd party insurance.\r\nc. For any deviations, the same shall be routed through Local admin to Corp Admin with recommendation of Plant head/RM /respective L2 only."]
+        },
+     {
+            "tag": " purpose Meal Benefit",
+            "patterns": ["What is the purpose of the meal benefit policy?"],
+            "responses": ["This policy explains the guidelines to provide meal vouchers to the eligible employees "]
+        },
+        {
+            "tag": "applicable Meal Benefit",
+            "patterns": ["Whom does this policy apply to?Is this applicable for all employees?"],
+            "responses": ["·  All permanent and probationary employees from Level 6 to Level C based out of corporate and commercial offices of TML. \r\n·  All permanent employees on old grades based out of corporate and commercial offices of TML.\r\n·  All employees of TMLDC based out of corporate and commercial offices.\r\n\r\nThis policy is not applicable to the employees based out of Plant locations."]
+        },
+        {
+            "tag": "meal voucher Meal Benefit",
+            "patterns": ["What is the meal voucher value per month?What is the price per month?"],
+            "responses": ["INR 990\r\nfor Level C - Level 6"]
+        },
+        {
+            "tag": "eligible meal voucher Meal Benefit",
+            "patterns": ["I joined on June 20th , am I eligible to get meal voucher for the month of June?"],
+            "responses": ["Yes, you are eligible to get meal voucher for the month of June."]
+        },
+        {
+            "tag": "meal voucher advance Meal Benefit",
+            "patterns": ["Are the meal vouchers given in advance?"],
+            "responses": ["Yes, meal vouchers are given in advance, in the first week of the month."]
+        },
+        {
+            "tag": "prorated basis Meal Benefit",
+            "patterns": ["If I leave TML, the meal voucher given to me in advance will be recovered from my full and final settlement on prorated basis? "],
+            "responses": ["No, the meal vouchers given to you in advance, will not be recovered from your full and final settlement on prorated basis."]
+        },
+        {
+            "tag": "commercial offices Meal Benefit",
+            "patterns": ["Is the amount of meal voucher given, different for different locations of corporate and commercial offices?"],
+            "responses": ["No, the same amount of 990 INR per month given to all employees across corporate and commercial offices irrespective of the location."]
+        },
+        {
+            "tag": "benefit Meal Benefit",
+            "patterns": ["How to avail the benefit of meal vouchers?"],
+            "responses": ["Please contact your location Admin SPOC to avail the benefit of meal vouchers."]
+        }
+    ]
+}
